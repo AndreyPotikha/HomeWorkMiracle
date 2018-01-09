@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeWorkMiracle</string>
+    <string name="Wrong">Wrong password, try again</string>
+    <string name="go_translate">Go translate</string>
+    <string name="translator">Translator</string>
+    <string name="en_uk">en_uk</string>
+    <string name="uk_en">uk_en</string>
+    <string name="developer">I want to be a Java developer</string>
+    <string name="developer_uk">Я хочу стати Java програмістом</string>
+    <string name="back">Back</string>
+    <string name="go_to_list">Go to list</string>
+    <string name="save_text">Save text</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="enter_text">Enter text</string>
+    <string name="random_phrase">Random phrase</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="miracleit.com.homeworkmiracle.Translater">
+
+    <Button
+        android:id="@+id/btn_en_uk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_en_uk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="translateEnUk"
+        android:text="@string/en_uk" />
+
+    <EditText
+        android:id="@+id/txt_en_uk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:ems="10"
+        android:text="@string/developer"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="14dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="backToMain"
+        android:text="@string/back" />
+
+</RelativeLayout>

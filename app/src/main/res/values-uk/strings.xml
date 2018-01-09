@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Домашне завдання в Міракл ІТ</string>
+    <string name="Wrong">Помилка пароля, спробуй ще</string>
+</resources>
